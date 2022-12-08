@@ -81840,7 +81840,7 @@ am(){return new A.U4(B.l)}}
 A.U4.prototype={
 kD(){var s=0,r=A.U(t.N),q,p=2,o,n=[],m,l,k,j,i,h
 var $async$kD=A.V(function(a,b){if(a===1){o=b
-s=p}while(true)switch(s){case 0:i="https://beeexplore.io/xinbaicao/"+$.hh.toLowerCase()+"_order.json"
+s=p}while(true)switch(s){case 0:i="https://beeexplore.io/typhon-system/"+$.hh.toLowerCase()+"_order.json"
 A.B(i)
 p=4
 s=7
