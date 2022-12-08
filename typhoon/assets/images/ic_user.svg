@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>ic_user</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic_user" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的" fill-rule="nonzero">
+            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="28" height="28"></rect>
+            <path d="M14.5026604,16.9997097 C24.0876537,16.9997097 23.9912813,23.0119013 23.9912813,23.0119013 C24.0638509,23.5576197 23.6754584,24 23.1221877,24 L5.88255247,24 C5.32986237,24 4.91940868,23.5512337 5.01345889,23.0119013 C5.01345889,23.0119013 4.91766701,16.9997097 14.5026604,16.9997097 Z" id="路径" fill="#FFFFFF" opacity="0.400000006"></path>
+            <path d="M14.5003381,4 L20.500393,4 L20.500393,10 C20.500393,13.3137881 17.8141566,16 14.5003381,16 C11.1865197,16 8.50028324,13.3137881 8.50028324,10 C8.50028324,6.68621192 11.1865197,4 14.5003381,4 Z" id="路径" fill="#FFFFFF" opacity="0.800000012"></path>
+        </g>
+    </g>
+</svg>
