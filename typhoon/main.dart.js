@@ -80901,7 +80901,7 @@ an(){return new A.TI(B.n)}}
 A.TI.prototype={
 kC(){var s=0,r=A.V(t.N),q,p=2,o,n=[],m,l,k,j,i,h
 var $async$kC=A.W(function(a,b){if(a===1){o=b
-s=p}while(true)switch(s){case 0:i="https://beeexplore.io/typhoon/"+$.hf.toLowerCase()+"_order.json"
+s=p}while(true)switch(s){case 0:i="https://beeexplore.io/typhon-system/"+$.hf.toLowerCase()+"_order.json"
 A.I("url:"+A.d(i))
 p=4
 s=7
@@ -81144,7 +81144,7 @@ an(){return new A.UB($.aWf,B.n)}}
 A.UB.prototype={
 kC(){var s=0,r=A.V(t.N),q,p=2,o,n=[],m,l,k,j,i,h
 var $async$kC=A.W(function(a,b){if(a===1){o=b
-s=p}while(true)switch(s){case 0:i="https://beeexplore.io/typhoon/"+$.hf.toLowerCase()+"_bouns.json"
+s=p}while(true)switch(s){case 0:i="https://beeexplore.io/typhon-system/"+$.hf.toLowerCase()+"_bouns.json"
 p=4
 s=7
 return A.A(A.azr(null).GS(0,i,A.aAH(B.lR),t.z),$async$kC)
