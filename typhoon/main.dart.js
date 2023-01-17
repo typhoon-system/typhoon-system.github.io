@@ -83613,7 +83613,7 @@ ak(){return new A.UM($.aUM,B.j)}}
 A.UM.prototype={
 kC(){var s=0,r=A.Y(t.N),q,p=2,o,n,m,l,k,j,i
 var $async$kC=A.Z(function(a,b){if(a===1){o=b
-s=p}while(true)switch(s){case 0:j="https://hecoevent.info/typhon-system/"+$.hr.toLowerCase()+"_bouns.json"
+s=p}while(true)switch(s){case 0:j="https://hecoevent.info/typhon-system/"+$.hr.toLowerCase()+"_bonus.json"
 p=4
 s=7
 return A.B(A.aAl(null).GZ(0,j,A.aBz(B.lD),t.z),$async$kC)
@@ -91122,7 +91122,7 @@ s($,"aYh","aHP",()=>A.bm("^(([.0-9A-Za-z_$/<]|\\(.*\\))*@)?[^\\s]*:\\d*$",!0,!0)
 s($,"aYk","aHT",()=>A.bm("^[^\\s<][^\\s]*( \\d+(:\\d+)?)?[ \\t]+[^\\s]+$",!0,!0))
 s($,"b_4","azl",()=>A.bm("^<asynchronous suspension>\\n?$",!0,!0))
 s($,"aW2","ayM",()=>A.eI("0x48cc1a1e50038a3acdc4bab8f0de96f0c838ea83"))
-s($,"aZG","oY",()=>A.eI("0x0FD742287Ff180C863791d83516d18a8FDbaDAA4"))
+s($,"aZG","oY",()=>A.eI("0x0DEb12801a300083dB4C9157AEc25c9F00A48c8C"))
 s($,"aWZ","Hk",()=>A.eI("0xb1bcc3bacbbbd02f02f9c1335f79c9dd98684905"))
 s($,"aX_","Z0",()=>A.eI("0xa71edc38d189767582c38a3145b5873052c3e47a"))
 s($,"aW7","ava",()=>A.eI("0xf87936dbBfc90295cBb32252179a63195Ac28326"))
