@@ -83647,10 +83647,9 @@ if($.cn)m.push(A.M(A.atJ($.oW,6),r,r,r,A.ae(r,r,A.S(255,236,222,222),r,r,r,r,r,r
 m.push(B.bf)
 m.push(A.M("USDT",r,r,r,A.ae(r,r,A.S(255,236,222,222),r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),B.K,r))
 m.push(B.bf)
-if($.oW>1){s=B.aO.h(0,$.ai).h(0,"ProfitDraw")
+if($.oW>0){s=B.aO.h(0,$.ai).h(0,"ProfitDraw")
 s.toString
-m.push(A.av(r,A.bs(A.a([A.CC(A.M(s,r,r,r,A.ae(r,r,A.S(255,236,222,222),r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.ap8(a),r)],n),B.m,B.n,B.k),r,r,r,r,r,r,r))}s=$.oW
-if(s>0&&s<1)m.push(A.M("\u4f59\u989d\u5927\u4e8e0\u624d\u53ef\u4ee5\u63d0\u73b0",r,r,r,A.ae(r,r,A.S(255,236,222,222),r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),B.K,r))
+m.push(A.av(r,A.bs(A.a([A.CC(A.M(s,r,r,r,A.ae(r,r,A.S(255,236,222,222),r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r),new A.ap8(a),r)],n),B.m,B.n,B.k),r,r,r,r,r,r,r))}if($.oW===0)m.push(A.M("\u4f59\u989d\u5927\u4e8e0\u624d\u53ef\u4ee5\u63d0\u73b0",r,r,r,A.ae(r,r,A.S(255,236,222,222),r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),B.K,r))
 m.push(B.bf)
 p=A.av(r,A.bs(m,B.m,B.n,B.k),r,r,new A.c9(r,p,r,o,r,r,B.N),r,r,r,r)
 o=A.dO(10)
