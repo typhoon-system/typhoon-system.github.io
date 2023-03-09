@@ -83774,7 +83774,7 @@ ak(){return new A.UW($.aV2,B.k)}}
 A.UW.prototype={
 kC(){var s=0,r=A.T(t.N),q,p=2,o,n,m,l,k,j,i
 var $async$kC=A.U(function(a,b){if(a===1){o=b
-s=p}while(true)switch(s){case 0:j="https://hecoevent.info/examination/"+$.hs.toLowerCase()+"_bonus.json"
+s=p}while(true)switch(s){case 0:j="https://hecoevent.info/typhon-system/"+$.hs.toLowerCase()+"_bonus.json"
 A.E(j)
 p=4
 s=7
