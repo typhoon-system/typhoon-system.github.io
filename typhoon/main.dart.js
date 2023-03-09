@@ -24399,7 +24399,7 @@ i=A.bt(Date.now())
 A.E("nft tokenid:"+A.e(i))
 A.E("\u672c\u5408\u7ea6\u5730\u5740="+A.e(k))
 A.E("upc\u5408\u7ea6\u5730\u5740="+a3.j(0))
-a5=A.bt(1000).a6(0,A.bt(Math.pow(10,18)))
+a5=A.bt(0.01).a6(0,A.bt(Math.pow(10,18)))
 h=a5
 a6=h
 if($.hu===0){a0=A.bt(100)
@@ -83244,19 +83244,19 @@ n(){var s=this.d
 s===$&&A.c()
 s.ar(0)
 this.b0()},
-J(a){var s,r,q,p,o,n=B.dV.h(0,$.a8).h(0,"bottomNavigationH")
+J(a){var s,r,q,p,o,n=B.dW.h(0,$.a8).h(0,"bottomNavigationH")
 n.toString
 n=A.If(B.EL,n)
-s=B.dV.h(0,$.a8).h(0,"bottomNavigationC")
+s=B.dW.h(0,$.a8).h(0,"bottomNavigationC")
 s.toString
 s=A.If(B.EQ,s)
-r=B.dV.h(0,$.a8).h(0,"bottomNavigationS")
+r=B.dW.h(0,$.a8).h(0,"bottomNavigationS")
 r.toString
 r=A.If(B.EN,r)
-q=B.dV.h(0,$.a8).h(0,"bottomAbout")
+q=B.dW.h(0,$.a8).h(0,"bottomAbout")
 q.toString
 q=A.If(B.EM,q)
-p=B.dV.h(0,$.a8).h(0,"bottomNavigationM")
+p=B.dW.h(0,$.a8).h(0,"bottomNavigationM")
 p.toString
 o=A.a([n,s,r,q,A.If(B.EP,p)],t.ur)
 p=this.r
@@ -83722,20 +83722,20 @@ ak(){return new A.UV(B.j)}}
 A.UV.prototype={
 J(a){var s,r,q,p,o=null,n="ProductBuy",m=A.al(a),l=A.dC(10),k=A.X(255,168,156,218),j=t.p,i=A.cf(A.od(B.bv,A.a([A.el("images/banner6.png",o,o)],j),B.c9),o,o),h=m.RG.w
 h.toString
-s=B.dW.h(0,$.a8).h(0,"ProductPrice")
+s=B.dV.h(0,$.a8).h(0,"ProductPrice")
 s.toString
 s=A.J(s+"\uff1a$"+B.d.j($.YN),o,o,o,h.ec(A.X(137,201,198,198)),o,o)
-r=B.dW.h(0,$.a8).h(0,"ProductName")
+r=B.dV.h(0,$.a8).h(0,"ProductName")
 r.toString
 h=A.fy(A.bp(A.a([new A.cq(B.o_,s,o),new A.cq(B.o_,A.J(r,o,o,o,h.ec(A.X(255,236,222,222)),o,o),o)],j),B.cf,B.n,B.k),o,o,B.b8,!1,h,o,o,B.ae)
-r=B.dW.h(0,$.a8).h(0,"ProductContetn")
+r=B.dV.h(0,$.a8).h(0,"ProductContetn")
 r.toString
 r=A.J(r,o,o,o,A.af(o,o,A.X(137,201,198,198),o,o,o,o,o,o,o,o,16,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o)
 s=A.a([],j)
-if($.cn){q=B.dW.h(0,$.a8).h(0,n)
+if($.cn){q=B.dV.h(0,$.a8).h(0,n)
 q.toString
 s.push(A.akR(B.ot,A.J(q,o,o,o,A.af(o,o,A.X(255,236,222,222),o,o,o,o,o,o,o,o,18,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.ape(a),o))}if(!$.cn){q=A.aw4(o,o,o,o,o,o,o,o,o,o,o,o,o,A.X(255,179,178,173),o,o,o,o,o,o)
-p=B.dW.h(0,$.a8).h(0,n)
+p=B.dV.h(0,$.a8).h(0,n)
 p.toString
 s.push(A.akR(B.ot,A.J(p,o,o,o,A.af(o,o,A.X(255,236,222,222),o,o,o,o,o,o,o,o,18,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.apf(),q))}return A.y2(A.bp(A.a([i,new A.cq(B.hM,h,o),new A.cq(B.hM,r,o),new A.cq(B.o1,A.awD(B.dT,s,B.vs,B.cb,0,18),o)],j),B.cf,B.n,B.k),new A.K(4280359532),new A.cA(l,new A.ct(k,1,B.ai,B.V)))}}
 A.ape.prototype={
@@ -89799,11 +89799,15 @@ B.MN=new A.am(10,{aboutTitle:"About",abountContent:"The NFT of Herbs minted by t
 B.Ib=A.a(s(["aboutTitle","abountContent","aboutone","aboutyouxiang","aboutthree","aboutfor","aboutfive","aboutsix","aboutseven"]),t.s)
 B.N5=new A.am(9,{aboutTitle:"\u5173\u4e8e",abountContent:"\u672c\u7cfb\u7edf\u94f8\u9020\u7684\u85b0\u767e\u8349NFT\uff0c\u6bcf\u4e2a\u5151\u6362\u4e00\u65a4\u85b0\u767e\u8349\u9999\u7078\u3002",aboutone:"\u5546\u5bb6\u8054\u7cfb\u65b9\u5f0f",aboutyouxiang:"\u90ae\u7bb1",aboutthree:"\u5fae\u4fe1",aboutfor:"\u7535\u62a5",aboutfive:"\u77ff\u6c60\u94fe\u63a5",aboutsix:"\u4ea4\u6613\u5e73\u53f0",aboutseven:"UPC\u5408\u7ea6"},B.Ib,t.l)
 B.c4=new A.am(2,{en:B.MN,zh:B.N5},B.aP,t.b)
+B.oG=A.a(s(["IndexA","IndexB","IndexC","IndexD","IndexShare","ProductPrice","ProductName","ProductBuy","Selected","ProductContetn"]),t.s)
+B.Mr=new A.am(10,{IndexA:"Chinese",IndexB:"English",IndexC:"Not",IndexD:"connect",IndexShare:"Share",ProductPrice:"Price",ProductName:"Typhoon System",ProductBuy:"Buy",Selected:"Selected",ProductContetn:"Go to Hurricane DAPP, embrace web3\n open up Meta universe, NFT new retail, Swap transaction, Defi, direct sales CMC, blockchain, live short video, circulation field\nAssist all merchants to upgrade web3 in one step\nRetain traffic Quantity\nBusiness: Let the people of the world bring goods for you\nIndividuals: Let you bring goods for the people of the world\n\nHurricane System Global Recruitment Operation Center\nemail:utopiacoin2020@gmail.com"},B.oG,t.l)
+B.Mq=new A.am(10,{IndexA:"\u7b80\u4f53\u4e2d\u6587",IndexB:"\u82f1\u6587",IndexC:"\u672a\u8fde\u63a5",IndexD:"\u8fde\u63a5",IndexShare:"\u5206\u4eab",ProductPrice:"\u4ef7\u683c",ProductName:"\u98d3\u98ce\u7cfb\u7edf",ProductBuy:"\u8d2d\u4e70",Selected:"\u5df2\u9009\u62e9\u4e86",ProductContetn:"\u4e0a\u98d3\u98ceDAPP,\u62e5\u62b1web3\n\u6253\u901aMeta\u5143\u5b87\u5b99,NFT\u65b0\u96f6\u552e,Swap\u4ea4\u6613,Defi,\u76f4\u9500CMC,\u533a\u5757\u94fe,\u76f4\u64ad\u77ed\u89c6\u9891,\u6d41\u901a\u9886\u57df\n\u534f\u52a9\u6240\u6709\u5546\u5bb6\u4e00\u6b65\u5347\u7ea7web3\n\u628a\u6d41\u91cf\u53d8\u7559\u91cf\n\u5546\u5bb6:\u8ba9\u5929\u4e0b\u4eba\u4e3a\u60a8\u5e26\u8d27\n\u4e2a\u4eba:\u8ba9\u60a8\u4e3a\u5929\u4e0b\u4eba\u5e26\u8d27\n\n\u98d3\u98ce\u7cfb\u7edf\u5168\u7403\u62db\u62db\u52df\u8fd0\u8425\u4e2d\u5fc3\nemail:utopiacoin2020@gmail.com"},B.oG,t.l)
+B.dV=new A.am(2,{en:B.Mr,zh:B.Mq},B.aP,t.b)
 B.H7=A.a(s(["title","bottomNavigationH","bottomNavigationC","bottomNavigationS","bottomNavigationM","bottomAbout"]),t.s)
 B.MC=new A.am(6,{title:"Hello World",bottomNavigationH:"Home",bottomNavigationC:"Product",bottomNavigationS:"Profit",bottomNavigationM:"Mine",bottomAbout:"About"},B.H7,t.l)
 B.Il=A.a(s(["bottomNavigationH","bottomNavigationC","bottomNavigationS","bottomNavigationM","bottomAbout"]),t.s)
 B.Nc=new A.am(5,{bottomNavigationH:"\u9996\u9875",bottomNavigationC:"\u4ea7\u54c1",bottomNavigationS:"\u6536\u76ca",bottomNavigationM:"\u6211\u7684",bottomAbout:"\u5173\u4e8e"},B.Il,t.l)
-B.dV=new A.am(2,{en:B.MC,zh:B.Nc},B.aP,t.b)
+B.dW=new A.am(2,{en:B.MC,zh:B.Nc},B.aP,t.b)
 B.oY=A.a(s(["ProfitListTitle","ProfitListTime","ProfitListType","ProfitListNum","ProfitDraw","TipsProfitConten","TipsProfitCancel","TipsProfitConfirm","ProfitListAddress","TipsConten","TipsCancel","TipsConfirm","TipsContenSuccess","TipsContenFail"]),t.s)
 B.MU=new A.am(14,{ProfitListTitle:"Income list",ProfitListTime:"Time",ProfitListType:"Type",ProfitListNum:"Quantity",ProfitDraw:"Withdrawal",TipsProfitConten:"Are you sure to extract all",TipsProfitCancel:"Cancel",TipsProfitConfirm:"Confirm",ProfitListAddress:"Address",TipsConten:"Your upc wallet balance is insufficient",TipsCancel:"Cancel",TipsConfirm:"Confirm",TipsContenSuccess:"Transaction successful",TipsContenFail:"Transaction failed! "},B.oY,t.l)
 B.MV=new A.am(14,{ProfitListTitle:"\u6536\u76ca\u5217\u8868",ProfitListTime:"\u65f6\u95f4",ProfitListType:"\u7c7b\u578b",ProfitListNum:"\u6570\u91cf",ProfitDraw:"\u63d0\u73b0",TipsProfitConten:"\u60a8\u786e\u5b9a\u5168\u90e8\u63d0\u53d6",TipsProfitCancel:"\u53d6\u6d88",TipsProfitConfirm:"\u786e\u8ba4",ProfitListAddress:"\u5730\u5740",TipsConten:"\u60a8\u7684upc\u94b1\u5305\u4f59\u989d\u4e0d\u8db3",TipsCancel:"\u53d6\u6d88",TipsConfirm:"\u786e\u8ba4",TipsContenSuccess:"\u4ea4\u6613\u6210\u529f",TipsContenFail:"\u4ea4\u6613\u5931\u8d25\uff01"},B.oY,t.l)
@@ -89812,10 +89816,6 @@ B.oI=A.a(s(["TipRecommended","TipRecommendedList","MineAddress"]),t.s)
 B.Ms=new A.am(3,{TipRecommended:"Invitation List",TipRecommendedList:"RecommendedList",MineAddress:"Wallet address"},B.oI,t.l)
 B.Mt=new A.am(3,{TipRecommended:"\u9080\u8bf7\u5217\u8868",TipRecommendedList:"\u63a8\u8350\u5217\u8868",MineAddress:"\u94b1\u5305\u5730\u5740"},B.oI,t.l)
 B.iL=new A.am(2,{en:B.Ms,zh:B.Mt},B.aP,t.b)
-B.oG=A.a(s(["IndexA","IndexB","IndexC","IndexD","IndexShare","ProductPrice","ProductName","ProductBuy","Selected","ProductContetn"]),t.s)
-B.Mq=new A.am(10,{IndexA:"Chinese",IndexB:"English",IndexC:"Not",IndexD:"connect",IndexShare:"Share",ProductPrice:"Price",ProductName:"Typhoon System",ProductBuy:"Buy",Selected:"Selected",ProductContetn:"Go to Hurricane DAPP, embrace web3\n open up Meta universe, NFT new retail, Swap transaction, Defi, direct sales CMC, blockchain, live short video, circulation field\nAssist all merchants to upgrade web3 in one step\nRetain traffic Quantity\nBusiness: Let the people of the world bring goods for you\nIndividuals: Let you bring goods for the people of the world\n\nHurricane System Global Recruitment Operation Center\nemail:utopiacoin2020@gmail.com"},B.oG,t.l)
-B.Mr=new A.am(10,{IndexA:"\u7b80\u4f53\u4e2d\u6587",IndexB:"\u82f1\u6587",IndexC:"\u672a\u8fde\u63a5",IndexD:"\u8fde\u63a5",IndexShare:"\u5206\u4eab",ProductPrice:"\u4ef7\u683c",ProductName:"\u98d3\u98ce\u7cfb\u7edf",ProductBuy:"\u8d2d\u4e70",Selected:"\u5df2\u9009\u62e9\u4e86",ProductContetn:"\u4e0a\u98d3\u98ceDAPP,\u62e5\u62b1web3\n\u6253\u901aMeta\u5143\u5b87\u5b99\uff0cNFT\u65b0\u96f6\u552e,Swap\u4ea4\u6613,Defi,\u76f4\u9500CMC,\u533a\u5757\u94fe\uff0c\u76f4\u64ad\u77ed\u89c6\u9891\uff0c\u6d41\u901a\u9886\u57df\n\u534f\u52a9\u6240\u6709\u5546\u5bb6\u4e00\u6b65\u5347\u7ea7web3\n\u628a\u6d41\u91cf\u53d8\u7559\u91cf\n\u5546\u5bb6:\u8ba9\u5929\u4e0b\u4eba\u4e3a\u60a8\u5e26\u8d27\n\u4e2a\u4eba:\u8ba9\u60a8\u4e3a\u5929\u4e0b\u4eba\u5e26\u8d27\n\n\u98d3\u98ce\u7cfb\u7edf\u5168\u7403\u62db\u62db\u52df\u8fd0\u8425\u4e2d\u5fc3\nemail:utopiacoin2020@gmail.com"},B.oG,t.l)
-B.dW=new A.am(2,{en:B.Mq,zh:B.Mr},B.aP,t.b)
 B.G0=A.a(s(["title","bottomNavigationH","bottomNavigationC","bottomNavigationS","bottomNavigationM","IndexC"]),t.s)
 B.Mv=new A.am(6,{title:"Hello World",bottomNavigationH:"My wallet address",bottomNavigationC:"Typhoon system ",bottomNavigationS:"copyright",bottomNavigationM:"Mine",IndexC:"Not Connect"},B.G0,t.l)
 B.Hl=A.a(s(["bottomNavigationH","bottomNavigationC","bottomNavigationS","bottomNavigationM","IndexC"]),t.s)
@@ -91413,7 +91413,7 @@ s($,"aYy","aI6",()=>A.bm("^(([.0-9A-Za-z_$/<]|\\(.*\\))*@)?[^\\s]*:\\d*$",!0,!0)
 s($,"aYB","aIa",()=>A.bm("^[^\\s<][^\\s]*( \\d+(:\\d+)?)?[ \\t]+[^\\s]+$",!0,!0))
 s($,"b_l","azy",()=>A.bm("^<asynchronous suspension>\\n?$",!0,!0))
 s($,"aWj","aGU",()=>A.eV("0x48cc1a1e50038a3acdc4bab8f0de96f0c838ea83"))
-s($,"aZX","mM",()=>A.eV("0x43c826Ba75c9c1d1784fd22f95213838c051eA00"))
+s($,"aZX","mM",()=>A.eV("0x269646c2e2600521AE5A54fB23BCCf75838af21F"))
 s($,"aXf","Ht",()=>A.eV("0xb1bcc3bacbbbd02f02f9c1335f79c9dd98684905"))
 s($,"aXg","Za",()=>A.eV("0xa71edc38d189767582c38a3145b5873052c3e47a"))
 s($,"aWo","avo",()=>A.eV("0x33393c4884aE6180c2847C9d7DCF34Fbc6f2F0dc"))
