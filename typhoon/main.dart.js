@@ -24399,7 +24399,7 @@ i=A.bt(Date.now())
 A.E("nft tokenid:"+A.e(i))
 A.E("\u672c\u5408\u7ea6\u5730\u5740="+A.e(k))
 A.E("upc\u5408\u7ea6\u5730\u5740="+a3.j(0))
-a5=A.bt(0.01).a6(0,A.bt(Math.pow(10,18)))
+a5=A.bt(1000).a6(0,A.bt(Math.pow(10,18)))
 h=a5
 a6=h
 if($.hu===0){a0=A.bt(100)
