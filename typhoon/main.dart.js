@@ -89647,7 +89647,7 @@ A.apr.prototype={
 $0(){var s=0,r=A.V(t.H)
 var $async$$0=A.W(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:s=2
-return A.B(A.aDS(A.ek("https://aski.ai/i/G1i378ef",0,null)),$async$$0)
+return A.B(A.aDS(A.ek("https://foxgpt.club/?inviter=EyQOJx",0,null)),$async$$0)
 case 2:return A.T(null,r)}})
 return A.U($async$$0,r)},
 $S:34}
